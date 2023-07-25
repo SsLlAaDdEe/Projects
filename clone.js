@@ -9,14 +9,21 @@ let isApproved = false;//Boolean literal
 let firstName = undefined;
 let selectedColour = null;
 
-//Object
+//Objects
 let person = {
     name: 'Beth', age: 30
 };
 
 //Dot Notation
-person.age = 25
+person.age = 25;
 
 //Bracket notation
-person['name'] = 'Mary'
-console.log(person)
+person['name'] = 'Mary';
+console.log(person);
+
+
+//Arrays
+let selectedItems = ['ball', 'bat'];
+selectedItems[2] = 'baseball';
+selectedItems[3] = 20
+;console.log(selectedItems);
