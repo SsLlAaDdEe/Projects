@@ -14,6 +14,7 @@ let person = {
     name: 'Beth', age: 30
 };
 
+//Notation of Objects
 //Dot Notation
 person.age = 25;
 
@@ -25,5 +26,19 @@ console.log(person);
 //Arrays
 let selectedItems = ['ball', 'bat'];
 selectedItems[2] = 'baseball';
-selectedItems[3] = 20
-;console.log(selectedItems);
+selectedItems[3] = 20;
+console.log(selectedItems);
+
+//Functions
+function greet(_name){//Inside the bracket is parameters
+    console.log('Hello ' + _name);
+}
+
+greet('John');
+greet('Mark')
+
+function calculate(n){
+    return n + n;
+}
+
+console.log(calculate(5))
