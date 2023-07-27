@@ -42,3 +42,8 @@ function calculate(n){
 }
 
 console.log(calculate(5))
+
+//Concatenation of Strings
+let word_1 = 'Fam';
+let word_2 = 'ily';
+console.log(word_1 + word_2)
