@@ -23,6 +23,18 @@ person.age = 25;
 person['name'] = 'Mary';
 console.log(person);
 
+//Cloning the Object using Object Assign
+let cloneperson = Object.assign({}, person);
+cloneperson.name = 'Peter'
+console.log(cloneperson.name)
+console.log(person.name)
+
+//Cloning the Object using Spread Syntax
+let clone2 = {... person}
+clone2.name = 'Niall'
+console.log(cloneperson.name)
+console.log(person.name)
+
 
 //Arrays
 let selectedItems = ['ball', 'bat'];
